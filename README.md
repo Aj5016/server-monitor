@@ -268,7 +268,7 @@ sudo nethogs -a
 Or specify the interface manually:
 
 bash
-sudo nethogs ens160
+sudo nethogs (interface_name)
 
 ### `iftop` does not start
 
@@ -285,7 +285,7 @@ sudo iftop -i INTERFACE_NAME
 Example:
 
 bash
-sudo iftop -i ens160
+sudo iftop -i (interface_name)
 
 ### Permission denied
 
@@ -336,8 +336,3 @@ MIT License
 
 You are free to use, modify, and distribute this project, provided that the license terms are respected.
 
-
-You can also use this as your GitHub repository short description:
-
-```txt
-Linux server monitoring and incident-response helper script for inspecting traffic spikes, active connections, logs, Docker activity, and suspicious IP behavior. Created with assistance from GPT-5.5.
