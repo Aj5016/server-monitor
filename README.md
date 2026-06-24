@@ -107,7 +107,7 @@ Recommended operating systems:
 
 Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/server-monitor-manager.git
+git clone https://github.com/Aj5016/server-monitor-manager.git
 cd server-monitor-manager
 
 Make the script executable:
